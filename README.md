@@ -9,17 +9,14 @@ Downloads for the ToonSuite apps: tools for multi-tooners on Toontown Rewritten 
 
 ## Download
 
-Everything lives on the [**Releases**](../../releases) page. Each app has its own release train, so check the tag prefix:
+Everything lives on the [**Releases**](../../releases) page. The whole suite ships as **one release per version**,
+tagged `vX.Y.Z` (e.g. `v3.0.3`) — open the [**latest release**](../../releases/latest) and grab the file for your
+app and system:
 
-- **Tunetoon** releases are tagged `tunetoon-v...`
-- **Multicontroller** releases are tagged `multicontroller-v...`
-
-Open the newest release for the app you want and grab the file for your system:
-
-| App | Windows file |
-|---|---|
-| Tunetoon | `Tunetoon.exe` |
-| Multicontroller | `Multicontroller.exe` |
+| App | Windows | macOS |
+|---|---|---|
+| Tunetoon | `Tunetoon.exe` | `Tunetoon-macos-arm64.zip` (Apple Silicon) · `Tunetoon-macos-x64.zip` (Intel) |
+| Multicontroller | `Multicontroller.exe` | — |
 
 There is no installer. Each download is a single self-contained program. Put it in a folder and run it.
 
@@ -34,7 +31,7 @@ There is no installer. Each download is a single self-contained program. Put it 
 
 ### macOS (Tunetoon)
 
-macOS builds are being finalized. Once posted, they will appear on the Tunetoon releases as `Tunetoon-macos-arm64.zip` (Apple Silicon) and `Tunetoon-macos-x64.zip` (Intel). To install:
+Tunetoon ships two macOS builds — `Tunetoon-macos-arm64.zip` (Apple Silicon) and `Tunetoon-macos-x64.zip` (Intel). To install:
 
 1. Download the zip for your Mac and unzip it.
 2. Drag `Tunetoon.app` anywhere you like.
@@ -46,10 +43,7 @@ You only need to download from here once. Both apps check for a newer release wh
 
 ## Verifying a download
 
-Every release ships a checksum file so you can confirm your download is intact:
-
-- Tunetoon: `SHA256SUMS-tt.txt`
-- Multicontroller: `SHA256SUMS-mc.txt`
+Every release ships a single `SHA256SUMS.txt` covering all of that version's downloads, so you can confirm yours is intact.
 
 On Windows PowerShell:
 

@@ -10,7 +10,7 @@ Downloads for the ToonSuite apps: tools for multi-tooners on Toontown Rewritten 
 ## Download
 
 Everything lives on the [**Releases**](../../releases) page. The whole suite ships as **one release per version**,
-tagged `vX.Y.Z` (e.g. `v3.0.3`) — open the [**latest release**](../../releases/latest) and grab the file for your
+tagged `vX.Y.Z` (e.g. `v1.0.0`), open the [**latest release**](../../releases/latest) and grab the file for your
 app and system:
 
 | App | Windows | macOS |
@@ -31,7 +31,7 @@ There is no installer. Each download is a single self-contained program. Put it 
 
 ### macOS (Tunetoon)
 
-Tunetoon ships two macOS builds — `Tunetoon-macos-arm64.zip` (Apple Silicon) and `Tunetoon-macos-x64.zip` (Intel). To install:
+Tunetoon ships two macOS builds: `Tunetoon-macos-arm64.zip` (Apple Silicon) and `Tunetoon-macos-x64.zip` (Intel). To install:
 
 1. Download the zip for your Mac and unzip it.
 2. Drag `Tunetoon.app` anywhere you like.

@@ -1,10 +1,10 @@
 # ToonSuite
 
-Two companion apps for playing Toontown Rewritten and Corporate Clash with a whole team of toons at once. This repository hosts the downloads only. The source is private.
+Downloads for the ToonSuite apps: tools for multi-tooners on Toontown Rewritten and Corporate Clash.
 
 | App | What it does | Platforms |
 |---|---|---|
-| **Tunetoon** | A launcher for all your toons. Save your accounts, and start any set of toons simultaneously. Works with both Toontown Rewritten and Corporate Clash. | Windows and MacOS |
+| **Tunetoon** | A launcher for all your toons. Save your accounts, and start any set of toons simultaneously. | Windows and MacOS |
 | **Multicontroller** | Control multiple toons simultaneously. | Windows |
 
 ## Download
